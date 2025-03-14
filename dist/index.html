@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      referrerpolicy="no-referrer"
+    />
+    <title>CAKES</title>
+  </head>
+  <body class="bg-customPink font-poppins">
+    <!-- navbar starts here -->
+    <nav
+      class="flex items-center justify-between sticky bg-customdarkpink shadow-lg top-0 md:justify-around py-5 px-10 text-white z-50"
+    >
+      <h1 class="font-titan font-semibold text-2xl">CAKE</h1>
+      <div class="md:hidden" style="font-size: 30px">
+        <i class="ri-apps-line" style="font-size: 30px"></i>
+      </div>
+      <div class="hidden md:flex items-center gap-4 text-white font-semibold">
+        <a href="#home" class="text-customOrange">Home</a>
+        <a href="#favorite" class="hover:text-customOrange cursor-pointer"
+          >Favorites</a
+        >
+        <a href="#care" class="hover:text-customOrange cursor-pointer">Care</a>
+        <a href="#products" class="hover:text-customOrange cursor-pointer"
+          >Products</a
+        >
+        <a href="#contact" class="hover:text-customOrange cursor-pointer"
+          >Contact</a
+        >
+      </div>
+      <div class="md:flex hidden items-center gap-2 text-xl">
+        <i style="font-size: 30px" class="ri-facebook-circle-line"></i>
+        <i style="font-size: 28px" class="ri-instagram-line"></i>
+        <i style="font-size: 25px" class="ri-twitter-x-line"></i>
+      </div>
+    </nav>
+
+    <!-- navbar ends here -->
+
+    <!-- hero-section starts here -->
+    <section
+      id="home"
+      class="flex items-center justify-center max-w-6xl mx-auto mt-20"
+    >
+      <div
+        class="flex flex-col items-center justify-center md:flex-row md:justify-between w-full gap-16 mb-28"
+      >
+        <!-- first col -->
+        <div class="md:w-full max-w-xs px-10 md:px-0">
+          <h1
+            class="text-white md:font-bold text-7xl text-center md:text-left font-titan max-w-xs md:max-w-sm mx-auto md:mx-0"
+          >
+            ENDLESS
+            <div
+              class="flex items-center justify-center md:justify-start md:items-start md:gap-10 gap-2"
+            >
+              CAKE
+              <span
+                ><img
+                  src="images/cake-outline.png"
+                  alt="pastry"
+                  class="h-14 w-18"
+              /></span>
+            </div>
+            DELIGHTS
+          </h1>
+          <p
+            class="py-3 text-white font-medium text-lg max-w-md mx-auto md:mx-0 pt-8 md:pt-0 text-center md:text-left"
+          >
+            Craving something sweet and quick? Cakes are the perfect solution,
+            always ready to satisfy your midday sweet tooth and bring joy to any
+            moment.
+          </p>
+          <div
+            class="flex justify-center items-center md:items-start md:justify-start gap-4 mt-5"
+          >
+            <button
+              class="bg-customYellow text-white rounded-full font-semibold p-3 px-5 shadow-custom-button-inset"
+            >
+              Order Now</button
+            ><button
+              class="bg-transparent border border-customYellow font-semibold rounded-full p-2.5 px-4 text-customYellow"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <!-- second col -->
+        <div
+          class="flex items-center justify-center md:w-full max-w-xs mx-auto"
+        >
+          <div
+            class="bg-customdarkerpink relative flex items-center justify-center rounded-full h-96 w-96 sm:h-[500px] sm:w-[500px] shadow-custom-inset-circle"
+          >
+            <img
+              class="absolute h-20 w-20 top-2 left-6"
+              src="images/cherry-2.png"
+              alt=""
+            />
+            <img
+              class="absolute h-20 w-20 top-2 right-5"
+              src="images/strawberry-2.png"
+              alt=""
+            />
+
+            <div
+              class="bg-customYellow rounded-full shadow-custom-inset-circle h-80 w-80 sm:h-96 sm:w-96"
+            >
+              <img src="images/home-cake.png" alt="cake" />
+            </div>
+            <img
+              class="absolute bottom-5 left-4 h-20 w-20"
+              src="images/strawberry-1.png"
+              alt=""
+            />
+            <img
+              class="absolute h-20 w-20 bottom-5 right-5"
+              src="images/cherry-1.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero-section ends here -->
+
+    <!-- Favorite section starts here -->
+
+    <div
+      id="favorite"
+      class="favorite max-w-full md:mt-14 mt-28 flex flex-col items-center justify-between"
+    >
+      <div class="text-white text-center md:max-w-md max-w-sm px-4">
+        <h1
+          class="mt-5 tracking-widest font-titan font-bold text-3xl md:text-4xl"
+        >
+          DISCOVER YOUR <br />
+          FAVORITE CAKE FLAVORS
+        </h1>
+        <p class="text-sm sm:text-base max-w-xs md:max-w-sm mt-4">
+          Try New Cake Flavors and Tempting Toppings. Enjoy Our Selection of
+          Delicious Cake Recipes from Every Corner of the World.
+        </p>
+      </div>
+      <img
+        class="right-40 absolute h-14 w-14 -rotate-45 hidden md:block"
+        src="images/cup-cake-1.png"
+        alt=""
+      />
+      <img
+        class="left-36 absolute h-14 w-14 -rotate-45 hidden md:block"
+        src="images/cup-cake-2.png"
+        alt=""
+      />
+      <div
+        class="mb-12 mt-8 md:flex md:flex-row flex-col items-center justify-center md:justify-evenly mx-auto md:mx-0"
+      >
+        <img
+          class="hover:scale-75 h-80 w-80 cursor-pointer transition-transform duration-300 ease-in-out"
+          src="images/favorite-cake-2.png"
+          alt=""
+        />
+        <img
+          class="hover:scale-75 md:h-96 md:w-96 h-80 w-80 gap-4 cursor-pointer transition-transform duration-300 ease-in-out"
+          src="images/favorite-cake-1.png"
+          alt=""
+        />
+        <img
+          class="hover:scale-75 h-80 w-80 cursor-pointer transition-transform duration-300 ease-in-out"
+          src="images/favorite-cake-3.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- Favorite section ends here -->
+
+    <!-- care section starts here -->
+    <div id="care" class="mt-20 max-w-full mb-24 px-4 md:px-0">
+      <h1
+        class="text-white mt-10 font-titan font-extrabold text-3xl md:text-4xl text-center md:mt-12"
+      >
+        DELICIOUSLY HEALTHY CAKES <br />
+        FOR YOUR ENJOYMENT
+      </h1>
+      <div
+        class="mt-20 flex-col-reverse flex md:flex-row items-center justify-center gap-8 md:gap-36"
+      >
+        <img
+          class="h-80 w-80 md:h-96 md:w-96"
+          src="images/care-cake.png"
+          alt=""
+        />
+        <div class="text-white text-left max-w-md px-4 md:px-0">
+          <p class="flex items-center justify-center gap-3 mb-4">
+            <i class="text-customYellow text-2xl ri-plant-line"></i>Cakes come
+            in diverse flavors like chocolate, vanilla, and fruit, pleasing
+            various taste preferences.
+          </p>
+          <p class="flex items-center justify-center gap-3 mb-4">
+            <i class="text-customYellow text-2xl ri-fire-line"></i> Simple to
+            slice and distribute, making cakes ideal for gatherings and
+            celebrations.
+          </p>
+          <p class="flex items-center justify-center gap-3 mb-4">
+            <i class="text-customYellow text-2xl ri-heart-pulse-line"></i>
+            Options include healthier versions like gluten-free, vegan, and
+            low-sugar cakes.
+          </p>
+          <p class="flex items-center justify-center gap-3">
+            <i class="text-customYellow text-2xl ri-hand-heart-line"></i>
+            Perfect for those craving a sweet treat, offering a delightful
+            indulgence.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="bg-customOrange text-white text-center p-6 md:p-10 sm:max-w-screen-sm md:max-w-full left-0 right-0 mx-0"
+    >
+      <h1
+        class="font-titan md:font-bold md:text-3xl md:tracking-widest flex flex-row justify-center items-center md:gap-8 text-2xl gap-3 flex-shrink-0"
+      >
+        <p><i class="ri-leaf-line"></i>GOOD FOR HEALTH</p>
+        <p><i class="ri-heart-pulse-line"></i>LOW SUGAR CAKES</p>
+      </h1>
+    </div>
+
+    <!-- care section ends here -->
+
+    <!-- Products section starts here -->
+    <div id="products" class="max-w-full mb-28 mt-28 px-4 md:px-0">
+      <h1
+        class="text-white text-center text-4xl tracking-widest font-extrabold font-titan mt-20"
+      >
+        HOTTEST CAKE <br />
+        IN TOWN
+      </h1>
+      <img
+        class="hidden md:block absolute -rotate-45 h-20 w-20 left-44"
+        src="images/strawberry.png"
+        alt=""
+      />
+      <img
+        class="hidden md:block absolute h-20 w-20 right-44"
+        src="images/cup-cake-2.png"
+        alt=""
+      />
+      <div class="max-w-xl mx-auto">
+        <div
+          class="mt-28 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:gap-28 gap-10 justify-items-center"
+        >
+          <div
+            class="relative h-52 w-48 bg-customdarkpink rounded-2xl shadow-card-inset p-8 hover:scale-75 cursor-pointer transition-transform duration-300 ease-in-out"
+          >
+            <img
+              class="absolute h-40 w-40 -top-10 left-1/2 transform -translate-x-1/2 z-10"
+              src="images/product-cake-1.png"
+              alt=""
+            />
+            <p class="text-white mt-20">Vanilla</p>
+            <div class="flex items-start justify-between mt-2">
+              <div>
+                <h2 class="text-white font-bold text-xl">Cake</h2>
+                <p class="text-white font-titan">$8</p>
+              </div>
+              <div class="bg-customYellow rounded-2xl text-white text-xl p-1">
+                <i class="ri-shopping-bag-3-line"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative h-52 w-48 bg-customdarkpink rounded-2xl shadow-card-inset p-8 hover:scale-75 cursor-pointer transition-transform duration-300 ease-in-out"
+          >
+            <img
+              class="absolute h-40 w-40 -top-10 left-1/2 transform -translate-x-1/2 z-10"
+              src="images/product-cake-2.png"
+              alt=""
+            />
+            <p class="text-white mt-20">Strawberry</p>
+            <div class="flex items-start justify-between mt-2">
+              <div>
+                <h2 class="text-white font-bold text-xl">Cake</h2>
+                <p class="text-white font-titan">$5</p>
+              </div>
+              <div class="bg-customYellow rounded-2xl text-white text-xl p-1">
+                <i class="ri-shopping-bag-3-line"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative h-52 w-48 bg-customdarkpink rounded-2xl shadow-card-inset p-8 hover:scale-75 cursor-pointer transition-transform duration-300 ease-in-out"
+          >
+            <img
+              class="absolute h-40 w-40 -top-10 left-1/2 transform -translate-x-1/2 z-10"
+              src="images/product-cake-3.png"
+              alt=""
+            />
+            <p class="text-white mt-20">Sponge</p>
+            <div class="flex items-start justify-between mt-2">
+              <div>
+                <h2 class="text-white font-bold text-xl">Cake</h2>
+                <p class="text-white font-titan">$6</p>
+              </div>
+              <div class="bg-customYellow rounded-2xl text-white text-xl p-1">
+                <i class="ri-shopping-bag-3-line"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative h-52 w-48 bg-customdarkpink rounded-2xl shadow-card-inset p-8 hover:scale-75 cursor-pointer transition-transform duration-300 ease-in-out"
+          >
+            <img
+              class="absolute h-40 w-40 -top-10 left-1/2 transform -translate-x-1/2 z-10"
+              src="images/product-cake-4.png"
+              alt=""
+            />
+            <p class="text-white mt-20">Opera</p>
+            <div class="flex items-start justify-between mt-2">
+              <div>
+                <h2 class="text-white font-bold text-xl">Cake</h2>
+                <p class="text-white font-titan">$8</p>
+              </div>
+              <div class="bg-customYellow rounded-2xl text-white text-xl p-1">
+                <i class="ri-shopping-bag-3-line"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative h-52 w-48 bg-customdarkpink rounded-2xl shadow-card-inset p-8 hover:scale-75 cursor-pointer transition-transform duration-300 ease-in-out"
+          >
+            <img
+              class="absolute h-40 w-40 -top-10 left-1/2 transform -translate-x-1/2 z-10"
+              src="images/product-cake-5.png"
+              alt=""
+            />
+            <p class="text-white mt-20">Angel Food</p>
+            <div class="flex items-start justify-between mt-2">
+              <div>
+                <h2 class="text-white font-bold text-xl">Cake</h2>
+                <p class="text-white font-titan">$10</p>
+              </div>
+              <div class="bg-customYellow rounded-2xl text-white text-xl p-1">
+                <i class="ri-shopping-bag-3-line"></i>
+              </div>
+            </div>
+          </div>
+          <img
+            class="hidden md:block -rotate-45 absolute h-16 w-16 left-80 top-[3000px]"
+            src="images/cup-cake-1.png"
+            alt=""
+          />
+          <div
+            class="relative h-52 w-48 bg-customdarkpink rounded-2xl shadow-card-inset p-8 hover:scale-75 cursor-pointer transition-transform duration-300 ease-in-out"
+          >
+            <img
+              class="absolute h-40 w-40 -top-10 left-1/2 transform -translate-x-1/2 z-10"
+              src="images/home-cake.png"
+              alt=""
+            />
+            <p class="text-white mt-20">Golden</p>
+            <div class="flex items-start justify-between mt-2">
+              <div>
+                <h2 class="text-white font-bold text-xl">Cake</h2>
+                <p class="text-white font-titan">$9</p>
+              </div>
+              <div class="bg-customYellow rounded-2xl text-white text-xl p-1">
+                <i class="ri-shopping-bag-3-line"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Products section ends here -->
+
+    <!-- contact section starts here -->
+    <div
+      id="contact"
+      class="max-w-full mt-12 md:mt-20 flex justify-center mb-24 px-4"
+    >
+      <div
+        class="bg-customdarkerpink max-w-md md:max-w-7xl rounded-2xl shadow-card-inset p-8 md:p-16"
+      >
+        <h1
+          class="text-white tracking-widest font-titan font-extrabold text-2xl md:text-3xl text-center"
+        >
+          CONTACT US TO <br />
+          ENJOY CAKES
+        </h1>
+        <img
+          class="hidden md:block absolute -rotate-45 h-20 w-20 left-96"
+          src="images/strawberry.png"
+          alt=""
+        />
+        <div
+          class="md:flex md:flex-row justify-center md:items-center md:gap-24 mt-8 md:mt-12"
+        >
+          <!-- Text and icons container -->
+          <div class="flex-col gap-6 md:gap-10">
+            <div class="md:flex md:flex-row md:gap-10 md:items-start">
+              <!-- Write to us section -->
+              <div class="flex flex-col items-center mt-4 md:mt-0">
+                <h2 class="text-white font-titan text-lg md:text-xl font-bold">
+                  Write to us
+                </h2>
+                <div class="flex flex-row justify-start gap-4 mt-2">
+                  <i
+                    class="text-customOrange hover:text-white text-lg md:text-xl ri-messenger-fill"
+                  ></i>
+                  <i
+                    class="text-customOrange hover:text-white text-lg md:text-xl ri-whatsapp-fill"
+                  ></i>
+                  <i
+                    class="text-customOrange hover:text-white text-lg md:text-xl ri-mail-fill"
+                  ></i>
+                </div>
+              </div>
+              <!-- Call us section -->
+              <div class="mt-4 md:mt-0">
+                <h2
+                  class="text-white font-titan text-lg md:text-xl font-bold text-center"
+                >
+                  Call us
+                </h2>
+                <p class="text-white text-base text-center mt-2">
+                  +123-456-7890 <br />
+                  +987-654-3210
+                </p>
+              </div>
+            </div>
+            <img
+              class="hidden md:block -rotate-45 absolute h-16 w-16 left-[39rem] top-[3800px]"
+              src="images/cake-outline.png"
+              alt=""
+            />
+            <!-- Find us section -->
+            <div class="mt-4 md:mt-0">
+              <h2
+                class="text-white font-titan text-lg md:text-xl font-bold text-center md:text-left"
+              >
+                Find us here
+              </h2>
+              <p class="text-white text-base text-center md:text-left mt-2">
+                123 Sweet Street <br />
+                Cakeville, CA 98765
+              </p>
+            </div>
+          </div>
+          <!-- Image -->
+          <div class="mt-8 md:mt-0">
+            <img
+              class="h-96 w-72 bottom-0"
+              src="images/contact-man.png"
+              alt="Contact Illustration"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact section ends here -->
+
+    <!-- Footer starts here -->
+    <footer class="text-white w-full mt-10 mb-20">
+      <h2 class="font-titan font-extrabold text-2xl text-center">CAKE</h2>
+      <div class="flex items-center justify-evenly md:mb-20 mt-14">
+        <p class="hover:text-customYellow">Terms & Agreements</p>
+        <p class="hidden md:block hover:text-customYellow">
+          <i class="ri-copyright-line"></i> All Rights Reserved
+        </p>
+        <p class="hover:text-customYellow">Privacy Policy</p>
+      </div>
+      <p class="text-center md:hidden hover:text-customYellow">
+        <i class="ri-copyright-line"></i> All Rights Reserved
+      </p>
+    </footer>
+    <!-- Footer starts here -->
+  </body>
+</html>
